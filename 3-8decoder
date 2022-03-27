@@ -36,8 +36,8 @@ $dumpvars(0, decoder_1);
 $dumpvars(0, clkgen_1);
 end
 endmodule
-```
-```=
+
+
 module decoder_2_4 (E , In , Out);
 input E; 
 input [1:0] In;
@@ -69,5 +69,4 @@ always @(clkb) begin
 clkb_out = clkb;
 end
 endmodule
-```
-```=
+
